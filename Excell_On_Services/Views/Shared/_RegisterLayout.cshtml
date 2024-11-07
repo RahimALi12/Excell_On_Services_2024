@@ -1,0 +1,159 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    <style>
+        .dataTables_wrapper .dataTables_length, .dataTables_wrapper .dataTables_filter {
+            text-align: left;
+        }
+
+        }
+
+        table.dataTable.row-border tbody th, table.dataTable.row-border tbody td, table.dataTable.display tbody th, table.dataTable.display tbody td {
+            border-color: #eaeaea;
+        }
+
+        [data-theme-version="dark"] table.dataTable.row-border tbody th,
+        [data-theme-version="dark"] table.dataTable.row-border tbody td,
+        [data-theme-version="dark"] table.dataTable.display tbody th,
+        [data-theme-version="dark"] table.dataTable.display tbody td {
+            border-color: #383c46;
+        }
+
+        .fooicon {
+            font-size: 1.25rem;
+            color: #454545;
+        }
+
+        .jsgrid-table .jsgrid-header-row > .jsgrid-header-cell {
+            color: #454545;
+        }
+
+        .jsgrid-table > tbody > tr > td {
+            padding: 1.2em;
+        }
+
+        .jsgrid-table .jsgrid-insert-row input, .jsgrid-table .jsgrid-insert-row select, .jsgrid-table .jsgrid-edit-row input, .jsgrid-table .jsgrid-edit-row select {
+            border: 1px solid #DDDFE1;
+        }
+
+        .jsgrid .jsgrid-button {
+            border: 0 !important;
+            margin-left: 10px;
+        }
+
+        .error-page .error-text {
+            font-size: 150px;
+            line-height: 1;
+        }
+
+        .error-page h4 {
+            font-size: 40px;
+            margin-bottom: 5px;
+        }
+
+        .error-page p {
+            font-size: 16px;
+        }
+
+        .authincation-content {
+            background: #fff;
+            box-shadow: 0 0 35px 0 rgba(154, 161, 171, 0.15);
+            border-radius: 5px;
+        }
+
+        [data-theme-version="dark"] .authincation-content {
+            background: #262932;
+            box-shadow: none;
+        }
+
+        .welcome-content {
+            background: url("../images/1.jpg");
+            background-size: cover;
+            background-position: center;
+            height: 100%;
+            padding: 75px 50px;
+            position: relative;
+            z-index: 1;
+            border-top-left-radius: 5px;
+            border-bottom-left-radius: 5px;
+        }
+
+            .welcome-content::after {
+                content: '';
+                position: absolute;
+                left: 0;
+                right: 0;
+                top: 0;
+                bottom: 0;
+                background: #7356f1;
+                opacity: 0.75;
+                z-index: -1;
+                border-top-left-radius: 5px;
+                border-bottom-left-radius: 5px;
+            }
+
+            .welcome-content .welcome-title {
+                color: #fff;
+                font-weight: 500;
+                font-size: 20px;
+            }
+
+            .welcome-content p {
+                color: #fff;
+            }
+
+            .welcome-content .brand-logo a {
+                display: inline-block;
+                margin-bottom: 20px;
+                font-weight: 700;
+                color: #fff;
+                font-size: 20px;
+            }
+
+                .welcome-content .brand-logo a img {
+                    width: 100px;
+                }
+
+            .welcome-content .intro-social {
+                position: absolute;
+                bottom: 75px;
+            }
+
+                .welcome-content .intro-social ul {
+                    margin-bottom: 0;
+                }
+
+                    .welcome-content .intro-social ul li {
+                        display: inline-block;
+                    }
+
+                        .welcome-content .intro-social ul li a {
+                            color: #fff;
+                            font-size: 14px;
+                            padding: 0px 7px;
+                        }
+
+        .auth-form {
+            padding: 50px 50px;
+        }
+
+            .auth-form .btn {
+                height: 50px;
+                font-weight: 700;
+            }
+
+            .auth-form .page-back {
+                display: inline-block;
+                margin-bottom: 15px;
+            }
+    </style>
+</head>
+<body>
+    <div>
+        @RenderBody()
+    </div>
+</body>
+</html>

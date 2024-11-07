@@ -1,0 +1,69 @@
+﻿@model IEnumerable<Excell_On_Services.Models.Services>
+
+@{
+    ViewData["Title"] = "ServiceIndex";
+    Layout = "_DashboardLayout";
+}
+
+<h1>ServiceIndex</h1>
+
+<div class="content-body">
+    <!-- row -->
+    <div class="container-fluid">
+
+<div class="mx-auto px-5 px-auto mt-5 pt-5 col-xl-8 col-xxl-12 col-lg-8 col-md-12 col-sm-12">
+    <div class="card ">
+        <div class="card-header">
+            <h5 class="card-title fw-bold"><strong>Services</strong></h5>
+            <p>
+                <a asp-action="AddService" asp-controller="Dashboard" class="mt-2 text-white btn btn-sm btn-success"><i class="la la-plus"></i></a>
+            </p>
+        </div>
+
+        <div class="card-body">
+            <div class="table-responsive">
+
+
+                <table class="table align-middle text-center">
+                    <thead>
+                        <tr>
+                            <th class="col-0">
+                                Id
+                            </th>
+                                    <th class="col-3">
+                                Service
+                            </th>
+                                    <th class="col-4">
+                                Charges Per Month
+                            </th>
+                                    <th class="col-3">Action</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var item in ViewBag.Data)
+                        {
+                            <tr>
+                                        <td class="col-0">
+                                    @item.Service_Id
+                                </td>
+                                        <td class="col-3">
+                                    @item.Service_Name
+                                </td>
+                                        <td class="col-4">
+                                    @item.ServiceChargesPerMonth
+                                </td>
+                                        <td class="col-3">
+                                    <a asp-action="EditService" asp-controller="Dashboard" asp-route-id="@item.Service_Id" class="btn btn-sm btn-secondary"><i class="la la-pencil"></i></a> |
+                                    <a asp-action="DetailService" asp-controller="Dashboard" asp-route-id="@item.Service_Id" class="btn btn-sm btn-warning text-white"><i class="la la-eye"></i></a> |
+                                    <a asp-action="DeleteService" asp-controller="Dashboard" asp-route-id="@item.Service_Id" class="btn btn-sm btn-danger"><i class="la la-trash-o"></i></a>
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+    </div>
+</div>

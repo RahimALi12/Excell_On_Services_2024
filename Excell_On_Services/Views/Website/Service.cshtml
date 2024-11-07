@@ -1,0 +1,78 @@
+﻿@model IEnumerable<Excell_On_Services.Models.Services>
+
+
+@{
+    ViewData["Title"] = "Service";
+}
+
+<!-- Header Start -->
+<div class="container-fluid bg-breadcrumb">
+    <ul class="breadcrumb-animation">
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+    </ul>
+    <div class="container text-center py-5" style="max-width: 900px;">
+        <h3 class="display-3 mb-4 wow fadeInDown" data-wow-delay="0.1s">
+            Our Services</h1>
+            <ol class="breadcrumb justify-content-center mb-0 wow fadeInDown" data-wow-delay="0.3s">
+                <li class="breadcrumb-item"><a asp-action="Index" asp-controller="Website">Home</a></li>
+                <li class="breadcrumb-item active text-primary">Our Services</li>
+            </ol>
+    </div>
+</div>
+<!-- Header End -->
+
+<!-- Service Start -->
+<div class="container-fluid service py-5">
+    <div class="container py-5">
+        <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 900px;">
+            <h4 class="mb-1 text-primary">Our Service</h4>
+            <h1 class="display-5 mb-4">What We Can Do For You</h1>
+            <p class="mb-0">
+                We are providing you our services with monthly plan if you are interesed so have it!
+            </p>
+        </div>
+        <div class="container-fluid price py-0">
+            <div class="container py-0">
+                <div class="row g-5 justify-content-center">
+             @foreach (var item in ViewBag.Data)
+                                    {                                         
+                    <div class="col-md-6 col-lg-6 col-xl-4 wow fadeInUp" data-wow-delay="0.3s">
+                        <div class="price-item bg-light rounded text-center">
+                            <div class="pice-item-offer">Popular</div>
+                                <div class="text-center text-dark border-bottom d-flex flex-column justify-content-center p-4" style="width: 100%; height: 160px;">
+                                    <p class="fs-2 fw-bold text-uppercase mb-0">@item.Service_Name</p>
+                                <div class="d-flex justify-content-center">
+                                    <strong class="align-self-start">$</strong>
+                                        <p class="mb-0"><span class="display-5">@item.ServiceChargesPerMonth</span>/mo</p>
+                                </div>
+                            </div>
+                            <div class="text-start p-5">
+                                <p><i class="fas fa-check text-success me-1"></i> Call to Customer</p>
+                                <p><i class="fas fa-check text-success me-1"></i> Product Promotion</p>
+                                <p><i class="fas fa-check text-success me-1"></i> Customer Satisfaction</p>
+                                <p><i class="fas fa-check text-success me-1"></i> Sales Services</p>
+                                <p><i class="fas fa-check text-success me-1"></i> Technological Solutions</p>
+                                <p><i class="fas fa-check text-success me-1"></i> Marketing</p>
+                                <p><i class="fas fa-check text-success me-1"></i> Commitment to Customer</p>
+                                <p><i class="fas fa-times text-danger me-1"></i> 24 Hours Service</p>
+                                <button class="btn btn-light rounded-pill py-2 px-5" type="button">Purchase</button>
+                            </div>
+                        </div>
+                    </div>
+                   }
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Service End -->
+

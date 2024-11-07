@@ -1,0 +1,99 @@
+﻿@model IEnumerable<Excell_On_Services.Models.Services>
+
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<!-- Hero Header Start -->
+<div class="hero-header overflow-hidden px-5">
+    <div class="rotate-img">
+        <img src="~/web/img/sty-1.png" class="img-fluid w-100" alt="">
+        <div class="rotate-sty-2"></div>
+    </div>
+    <div class="row gy-5 align-items-center">
+        <div class="col-lg-6 wow fadeInLeft" data-wow-delay="0.1s">
+            <h1 class="display-4 text-dark mb-4 wow fadeInUp" data-wow-delay="0.3s">Excell-on Consulting Services (ECS)</h1>
+            <p class="fs-4 mb-4 wow fadeInUp" data-wow-delay="0.5s">
+                We offer various services including In-bound and Out-bound support, and Tele Marketing. At ECS, we leverage new technologies to create impactful products and services for our clients. Join us to stay ahead in the dynamic world of business and technology.
+            </p>
+            <a href="#" class="btn btn-primary rounded-pill py-3 px-5 wow fadeInUp" data-wow-delay="0.7s">Get Started</a>
+        </div>
+        <div class="col-lg-6 wow fadeInRight" data-wow-delay="0.2s">
+            <img src="~/web/img/hero-img-1.png" class="img-fluid w-100 h-100" alt="">
+        </div>
+    </div>
+</div>
+<!-- Hero Header End -->
+        </div>
+<!-- Navbar & Hero End -->
+<!-- About Start -->
+<div class="container-fluid overflow-hidden py-5" style="margin-top: 6rem;">
+    <div class="container py-5">
+        <div class="row g-5">
+            <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+                <div class="RotateMoveLeft">
+                    <img src="~/web/img/about-1.png" class="img-fluid w-100" alt="">
+                </div>
+            </div>
+            <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
+                <h4 class="mb-1 text-primary">About Us</h4>
+                <h1 class="display-5 mb-4">Excell-on Consulting Services (ECS)</h1>
+                <p class="mb-4">
+                    Excell-on Consulting Services (ECS) specializes in helping organizations develop innovative business strategies and solutions. Our expert team focuses on aligning business and IT strategies to drive success. We offer various services including In-bound and Out-bound support, and Tele Marketing. At ECS, we leverage new technologies to create impactful products and services for our clients. Join us to stay ahead in the dynamic world of business and technology.
+                </p>
+                <a href="#" class="btn btn-primary rounded-pill py-3 px-5">About More</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- About End -->
+<!-- Service Start -->
+<div class="container-fluid service py-5">
+    <div class="container py-5">
+        <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 900px;">
+            <h4 class="mb-1 text-primary">Our Service</h4>
+            <h1 class="display-5 mb-4">What We Can Do For You</h1>
+            <p class="mb-0">
+                We are providing you our services with monthly plan if you are interesed so have it!
+            </p>
+        </div>
+        <div class="container-fluid price py-0">
+            <div class="container py-0">
+                <div class="row g-5 justify-content-center">
+                    @foreach (var item in ViewBag.Data)
+                    {
+                        <div class="col-md-6 col-lg-6 col-xl-4 wow fadeInUp" data-wow-delay="0.3s">
+                            <div class="price-item bg-light rounded text-center">
+                                <div class="pice-item-offer">Popular</div>
+                                <div class="text-center text-dark border-bottom d-flex flex-column justify-content-center p-4" style="width: 100%; height: 160px;">
+                                    <p class="fs-2 fw-bold text-uppercase mb-0">@item.Service_Name</p>
+                                    <div class="d-flex justify-content-center">
+                                        <strong class="align-self-start">$</strong>
+                                        <p class="mb-0"><span class="display-5">@item.ServiceChargesPerMonth</span>/mo</p>
+                                    </div>
+                                </div>
+                                <div class="text-start p-5">
+                                    <p><i class="fas fa-check text-success me-1"></i> Call to Customer</p>
+                                    <p><i class="fas fa-check text-success me-1"></i> Product Promotion</p>
+                                    <p><i class="fas fa-check text-success me-1"></i> Customer Satisfaction</p>
+                                    <p><i class="fas fa-check text-success me-1"></i> Sales Services</p>
+                                    <p><i class="fas fa-check text-success me-1"></i> Technological Solutions</p>
+                                    <p><i class="fas fa-check text-success me-1"></i> Marketing</p>
+                                    <p><i class="fas fa-check text-success me-1"></i> Commitment to Customer</p>
+                                    <p><i class="fas fa-times text-danger me-1"></i> 24 Hours Service</p>
+                                    <button class="btn btn-light rounded-pill py-2 px-5" type="button">Purchase</button>
+                                </div>
+                            </div>
+                        </div>
+                    }
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Service End -->
+
+
+

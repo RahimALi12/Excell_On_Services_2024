@@ -1,0 +1,127 @@
+﻿@model Excell_On_Services.Models.ClientServices
+
+@{
+    ViewData["Title"] = "Summary";
+}
+
+<h1>Summary</h1>
+
+
+<form asp-action="Summary" asp-controller="Website" method="post">
+
+    <input hidden asp-for="@Model.Services_Id" />
+
+    <div class="row">
+
+
+        <div class="col-6">
+
+            <div class="form-group">
+                <label asp-for="@Model.appUser.Email" class="control-label"></label>
+                <input asp-for="@Model.appUser.Email" readonly class="form-control" />
+                <span asp-validation-for="@Model.appUser.Email" class="text-danger"></span>
+            </div>
+
+        </div>
+
+        <div class="col-6">
+
+            <ul class="list-group mb-3 sticky-top">
+                <li class="list-group-item d-flex justify-content-between lh-condenced">
+                    <div>
+                        <h6>Service Name</h6>
+                        <small>@Model.Service.Service_Name</small>
+                    </div>
+                </li>
+
+                <li class="list-group-item d-flex justify-content-between lh-condenced">
+                    <div>
+                        <h6>Service Charges</h6>
+                        <small>@Model.Service.ServiceChargesPerMonth</small>
+                    </div>
+                </li>
+            </ul>
+
+            <div class="form-group">
+                <input type="submit" value="Checkout" class="btn btn-primary" />
+            </div>
+
+        </div>
+
+    </div>
+
+</form>
+
+
+
+@* <div>
+    <a asp-action="Edit" asp-route-id="@Model?.Id">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div> *@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@*
+<div>
+    <h4>ClientServices</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.ClientServices_Name)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.ClientServices_Name)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.ClientIdentity)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.ClientIdentity.Id)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.ClientServices_Description)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.ClientServices_Description)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.ClientServices_Duration)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.ClientServices_Duration)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.OrderDate)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.OrderDate)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.PaymentDate)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.PaymentDate)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Service)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Service.Service_Name)
+        </dd>
+    </dl>
+</div> *@

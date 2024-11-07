@@ -1,0 +1,75 @@
+﻿@model IEnumerable<Excell_On_Services.Models.Contact>
+
+@{
+    ViewData["Title"] = "Message";
+    Layout = "_DashboardLayout";
+}
+
+<h1>Messages</h1>
+<div class="content-body">
+    <!-- row -->
+    <div class="container-fluid">
+<div class="mx-auto px-auto mt-5 pt-5 col-xl-12 col-xxl-12 col-lg-12 col-md-12 col-sm-12">
+    <div class="card ">
+        <div class="card-header">
+            <h5 class="card-title fw-bold"><strong>Messages</strong></h5>
+        </div>
+
+        <div class="card-body">
+            <div class="table-responsive">
+
+
+                <table class="table align-middle ">
+                    <thead>
+        <tr>
+                            <th class="col-0">
+                                ID
+                            </th>
+                            <th class="col-1">
+                Name
+            </th>
+                            <th class="col-2">
+                Email
+            </th>
+                            <th class="col-2">
+                Phone
+            </th>
+                            <th class="col-2">
+                Subject
+            </th>
+            <th class="col-5">
+                Message
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in ViewBag.Data) {
+        <tr>
+                                <td class="col-0">
+                                    @item.Contact_Id
+                                </td>
+                                <td class="col-1">
+                @item.Contact_Name
+            </td>
+                                <td class="col-2">
+                @item.Contact_Email
+            </td>
+                                <td class="col-2">
+                @item.Contact_Phone
+            </td>
+                                <td class="col-2">
+                @item.Contact_Subject
+            </td>
+            <td class="col-5">
+                @item.Contact_Message
+            </td>
+        </tr>
+}
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+</div>

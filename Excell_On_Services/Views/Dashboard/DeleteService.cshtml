@@ -1,0 +1,63 @@
+﻿@model Excell_On_Services.Models.Services
+
+@{
+    ViewData["Title"] = "DeleteService";
+    Layout = "_DashboardLayout";
+}
+
+<h1>DeleteService</h1>
+
+<div class="content-body">
+    <!-- row -->
+    <div class="container-fluid">
+
+        <div class="row page-titles mx-0">
+            <div class="col-sm-6 p-md-0">
+                <div class="welcome-text">
+                    <h4>Delete Service</h4>
+                </div>
+            </div>
+            <div class="col-sm-6 p-md-0 justify-content-sm-end mt-2 mt-sm-0 d-flex">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a asp-action="Index" asp-controller="Dashboard">Dashboard</a></li>
+                    <li class="breadcrumb-item welcome-text">Delete Service</li>
+                </ol>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-6">
+
+                <div class="card mt-3">
+                    <div class="card-header mx-auto">
+                        <h3><strong>Delete Service</strong></h3>
+                    </div>
+                    <div class="card-body">
+                        <div class="row mb-5">
+                            <div class="mt-4 col-xl-6 col-lg-6 col-md-6 col-sm-12">
+                                <div> <strong>Service</strong> </div>
+                                <div> <strong>Charges</strong> </div>
+                            </div>
+                            <div class="mt-4 col-xl-6 text-right col-lg-6 col-md-6 col-sm-12">
+                                <div> @Html.DisplayFor(model => model.Service_Name)</div>
+                                <div> @Html.DisplayFor(model => model.ServiceChargesPerMonth)</div>
+                            </div>
+                        </div>
+                        <form asp-action="DeleteService" asp-controller="Dashboard" method="post">
+                            <input type="hidden" asp-for="Service_Id" />
+                            <input type="submit" value="Delete" class="btn btn-danger" /> |
+                            <a asp-action="Index" asp-controller="Dashboard">Back to List</a>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+
+
+
+
+

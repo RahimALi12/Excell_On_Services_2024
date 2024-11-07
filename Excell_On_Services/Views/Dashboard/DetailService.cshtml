@@ -1,0 +1,58 @@
+﻿@model Excell_On_Services.Models.Services
+
+@{
+    ViewData["Title"] = "DetailService";
+    Layout = "_DashboardLayout";
+}
+
+<h1>DetailService</h1>
+
+<div class="content-body">
+    <!-- row -->
+    <div class="container-fluid">
+
+        <div class="row page-titles mx-0">
+            <div class="col-sm-6 p-md-0">
+                <div class="welcome-text">
+                    <h4>Service Details</h4>
+                </div>
+            </div>
+            <div class="col-sm-6 p-md-0 justify-content-sm-end mt-2 mt-sm-0 d-flex">
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a asp-action="Index" asp-controller="Dashboard">Dashboard</a></li>
+                    <li class="breadcrumb-item welcome-text">Service Details</li>
+                </ol>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-6">
+
+                <div class="card mt-3">
+                    <div class="card-header mx-auto">
+                        <h3><strong>Service Details</strong></h3>
+                    </div>
+                    <div class="card-body">
+                        <div class="row mb-5">
+                            <div class="mt-4 col-xl-6 col-lg-6 col-md-6 col-sm-12">
+                                <div> <strong>Service</strong> </div>
+                                <div> <strong>Charges</strong> </div>
+                            </div>
+                            <div class="mt-4 col-xl-6 text-right col-lg-6 col-md-6 col-sm-12">
+                                <div> @Html.DisplayFor(model => model.Service_Name)</div>    
+                                <div> @Html.DisplayFor(model => model.ServiceChargesPerMonth)</div>
+                            </div>
+                        </div>
+                        <a asp-action="Index" asp-controller="Dashboard" class="btn btn-sm btn-primary text-white"><i class="la la-arrow-left"></i></a> |
+                        <a asp-action="EditService" asp-controller="Dashboard" asp-route-id="@Model?.Service_Id" class="btn btn-sm btn-secondary"><i class="la la-pencil"></i></a> |
+                        <a asp-action="DeleteService" asp-controller="Dashboard" asp-route-id="@Model?.Service_Id" class="btn btn-sm btn-danger"><i class="la la-trash-o"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+
+ 

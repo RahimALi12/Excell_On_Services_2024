@@ -1,0 +1,123 @@
+﻿@page
+@model RegisterModel
+@{
+    ViewData["Title"] = "Register";
+    Layout = null;
+    <link rel="stylesheet" href="~/dashboard/css/Registration.css">
+    <link rel="icon" type="image/png" href="~/images/icon.png">
+}
+
+
+
+    <div class="authincation h-100">
+        <div class="container h-100">
+            <div class="row justify-content-center h-100 align-items-center">
+                <div class="col-md-6">
+                    <div class="authincation-content">
+                        <div class="row no-gutters">
+                            <div class="col-xl-12">
+                                <div class="auth-form">
+                                <h4 class="text-center mb-4"><strong>Register your account</strong></h4>
+                                    <form id="registerForm" asp-route-returnUrl="@Model.ReturnUrl" method="post">
+                                        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                                        <div class="form-group">
+                                            <label asp-for="Input.Email"><strong>Email</strong></label>
+                                            <input asp-for="Input.Email" type="email" class="form-control">
+                                            <span asp-validation-for="Input.Email" class="text-danger"></span>
+                                        </div>
+                                        <div class="form-group">
+                                            <label asp-for="Input.Password"><strong>Password</strong></label>
+                                        <input asp-for="Input.Password" type="password" class="form-control" autocomplete="new-password" aria-required="true" />
+                                            <span asp-validation-for="Input.Password" class="text-danger"></span>
+                                        </div>
+                                        <div class="form-group">
+                                            <label asp-for="Input.ConfirmPassword"><strong>ConfirmPassword</strong></label>
+                                        <input asp-for="Input.ConfirmPassword" type="password" class="form-control" autocomplete="new-password" aria-required="true" />
+                                            <span asp-validation-for="Input.ConfirmPassword" class="text-danger"></span>
+                                        </div>
+                                    <div class="form-group">
+                                        <label asp-for="Input.Contact"><strong>Contact</strong></label>
+                                        <input asp-for="Input.Contact" type="number" class="form-control" aria-required="true" />
+                                        <span asp-validation-for="Input.Contact" class="text-danger"></span>
+                                    </div>
+                                    <div class="form-group">
+                                        <label asp-for="Input.City"><strong>City</strong></label>
+                                        <input asp-for="Input.City" type="text" class="form-control" aria-required="true" />
+                                        <span asp-validation-for="Input.City" class="text-danger"></span>
+                                    </div>
+                                    <div class="form-group">
+                                        <label asp-for="Input.Country"><strong>Country</strong></label>
+                                        <input asp-for="Input.Country" type="text" class="form-control" aria-required="true" />
+                                        <span asp-validation-for="Input.Country" class="text-danger"></span>
+                                    </div>
+                                        <div class="form-group col-12">
+                                            <label style="display:none;" asp-for="Input.Role"></label>
+                                            <select class="form-select w-100 border-1 border-gray p-2" asp-for="Input.Role" asp-items="@Model.Input.RoleList">
+                                                <option disabled selected>Select Role</option>
+                                            </select>
+                                            <span asp-validation-for="Input.Role" class="text-danger"></span>
+                                        </div>
+                                        <div class="text-center mt-4">
+                                            <button id="registerSubmit" type="submit" class="btn btn-primary btn-block">Register</button>
+                                        </div>
+                                    </form>
+                                    <div class="new-account mt-3">
+                                        <p>Already have an account? <a class="text-primary" asp-page="./Login" asp-route-returnUrl="@Model.ReturnUrl">Login</a></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+@* 
+<div class="row">
+    <div class="col-md-4 m-auto">
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <h1>@ViewData["Title"]</h1>
+        <form id="registerForm" asp-route-returnUrl="@Model.ReturnUrl" method="post">
+            <hr />
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-floating">
+                <input asp-for="Input.Email" class="form-control" autocomplete="username" aria-required="true" />
+                <label asp-for="Input.Email"></label>
+                <span asp-validation-for="Input.Email" class="text-danger"></span>
+            </div>
+            <br />
+            <div class="form-floating">
+                <input asp-for="Input.Password" class="form-control" autocomplete="new-password" aria-required="true" />
+                <label asp-for="Input.Password"></label>
+                <span asp-validation-for="Input.Password" class="text-danger"></span>
+            </div>
+            <br />
+            <div class="form-floating">
+                <input asp-for="Input.ConfirmPassword" class="form-control" autocomplete="new-password" aria-required="true" />
+                <label asp-for="Input.ConfirmPassword"></label>
+                <span asp-validation-for="Input.ConfirmPassword" class="text-danger"></span>
+            </div>
+            <br />
+            <div class="form-floating">
+                <label style="display:none;" asp-for="Input.Role"></label>
+                <select class="form-select p-3" asp-for="Input.Role" asp-items="@Model.Input.RoleList">
+                    <option disabled selected>Select Role</option>
+                </select>
+                <span asp-validation-for="Input.Role" class="text-danger"></span>
+            </div>
+            <br />
+            <button id="registerSubmit" type="submit" class="w-100 btn btn-lg btn-primary">Register</button>
+        </form>
+    </div>
+</div> *@
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

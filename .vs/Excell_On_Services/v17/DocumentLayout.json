@@ -1,0 +1,624 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Rahim\\Excell_On_Services\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1D196352-E3A2-4EA8-A06B-E7D8C559B81D}|Excell_On_Services\\Excell_On_Services.csproj|d:\\rahim\\excell_on_services\\excell_on_services\\migrations\\20240727054155_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D196352-E3A2-4EA8-A06B-E7D8C559B81D}|Excell_On_Services\\Excell_On_Services.csproj|solutionrelative:excell_on_services\\migrations\\20240727054155_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D196352-E3A2-4EA8-A06B-E7D8C559B81D}|Excell_On_Services\\Excell_On_Services.csproj|d:\\rahim\\excell_on_services\\excell_on_services\\controllers\\websitecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D196352-E3A2-4EA8-A06B-E7D8C559B81D}|Excell_On_Services\\Excell_On_Services.csproj|solutionrelative:excell_on_services\\controllers\\websitecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D196352-E3A2-4EA8-A06B-E7D8C559B81D}|Excell_On_Services\\Excell_On_Services.csproj|d:\\rahim\\excell_on_services\\excell_on_services\\models\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D196352-E3A2-4EA8-A06B-E7D8C559B81D}|Excell_On_Services\\Excell_On_Services.csproj|solutionrelative:excell_on_services\\models\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D196352-E3A2-4EA8-A06B-E7D8C559B81D}|Excell_On_Services\\Excell_On_Services.csproj|d:\\rahim\\excell_on_services\\excell_on_services\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{1D196352-E3A2-4EA8-A06B-E7D8C559B81D}|Excell_On_Services\\Excell_On_Services.csproj|solutionrelative:excell_on_services\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D196352-E3A2-4EA8-A06B-E7D8C559B81D}|Excell_On_Services\\Excell_On_Services.csproj|d:\\rahim\\excell_on_services\\excell_on_services\\models\\clientservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D196352-E3A2-4EA8-A06B-E7D8C559B81D}|Excell_On_Services\\Excell_On_Services.csproj|solutionrelative:excell_on_services\\models\\clientservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D196352-E3A2-4EA8-A06B-E7D8C559B81D}|Excell_On_Services\\Excell_On_Services.csproj|d:\\rahim\\excell_on_services\\excell_on_services\\areas\\identity\\pages\\account\\logout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1D196352-E3A2-4EA8-A06B-E7D8C559B81D}|Excell_On_Services\\Excell_On_Services.csproj|solutionrelative:excell_on_services\\areas\\identity\\pages\\account\\logout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D196352-E3A2-4EA8-A06B-E7D8C559B81D}|Excell_On_Services\\Excell_On_Services.csproj|d:\\rahim\\excell_on_services\\excell_on_services\\views\\website\\summary.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1D196352-E3A2-4EA8-A06B-E7D8C559B81D}|Excell_On_Services\\Excell_On_Services.csproj|solutionrelative:excell_on_services\\views\\website\\summary.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D196352-E3A2-4EA8-A06B-E7D8C559B81D}|Excell_On_Services\\Excell_On_Services.csproj|d:\\rahim\\excell_on_services\\excell_on_services\\views\\website\\service.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1D196352-E3A2-4EA8-A06B-E7D8C559B81D}|Excell_On_Services\\Excell_On_Services.csproj|solutionrelative:excell_on_services\\views\\website\\service.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D196352-E3A2-4EA8-A06B-E7D8C559B81D}|Excell_On_Services\\Excell_On_Services.csproj|d:\\rahim\\excell_on_services\\excell_on_services\\views\\website\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1D196352-E3A2-4EA8-A06B-E7D8C559B81D}|Excell_On_Services\\Excell_On_Services.csproj|solutionrelative:excell_on_services\\views\\website\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D196352-E3A2-4EA8-A06B-E7D8C559B81D}|Excell_On_Services\\Excell_On_Services.csproj|d:\\rahim\\excell_on_services\\excell_on_services\\views\\dashboard\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1D196352-E3A2-4EA8-A06B-E7D8C559B81D}|Excell_On_Services\\Excell_On_Services.csproj|solutionrelative:excell_on_services\\views\\dashboard\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D196352-E3A2-4EA8-A06B-E7D8C559B81D}|Excell_On_Services\\Excell_On_Services.csproj|d:\\rahim\\excell_on_services\\excell_on_services\\views\\dashboard\\serviceindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1D196352-E3A2-4EA8-A06B-E7D8C559B81D}|Excell_On_Services\\Excell_On_Services.csproj|solutionrelative:excell_on_services\\views\\dashboard\\serviceindex.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D196352-E3A2-4EA8-A06B-E7D8C559B81D}|Excell_On_Services\\Excell_On_Services.csproj|d:\\rahim\\excell_on_services\\excell_on_services\\views\\website\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1D196352-E3A2-4EA8-A06B-E7D8C559B81D}|Excell_On_Services\\Excell_On_Services.csproj|solutionrelative:excell_on_services\\views\\website\\contact.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D196352-E3A2-4EA8-A06B-E7D8C559B81D}|Excell_On_Services\\Excell_On_Services.csproj|d:\\rahim\\excell_on_services\\excell_on_services\\areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1D196352-E3A2-4EA8-A06B-E7D8C559B81D}|Excell_On_Services\\Excell_On_Services.csproj|solutionrelative:excell_on_services\\areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D196352-E3A2-4EA8-A06B-E7D8C559B81D}|Excell_On_Services\\Excell_On_Services.csproj|d:\\rahim\\excell_on_services\\excell_on_services\\views\\dashboard\\addservice.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1D196352-E3A2-4EA8-A06B-E7D8C559B81D}|Excell_On_Services\\Excell_On_Services.csproj|solutionrelative:excell_on_services\\views\\dashboard\\addservice.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D196352-E3A2-4EA8-A06B-E7D8C559B81D}|Excell_On_Services\\Excell_On_Services.csproj|d:\\rahim\\excell_on_services\\excell_on_services\\models\\contact.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D196352-E3A2-4EA8-A06B-E7D8C559B81D}|Excell_On_Services\\Excell_On_Services.csproj|solutionrelative:excell_on_services\\models\\contact.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D196352-E3A2-4EA8-A06B-E7D8C559B81D}|Excell_On_Services\\Excell_On_Services.csproj|d:\\rahim\\excell_on_services\\excell_on_services\\areas\\identity\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D196352-E3A2-4EA8-A06B-E7D8C559B81D}|Excell_On_Services\\Excell_On_Services.csproj|solutionrelative:excell_on_services\\areas\\identity\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D196352-E3A2-4EA8-A06B-E7D8C559B81D}|Excell_On_Services\\Excell_On_Services.csproj|d:\\rahim\\excell_on_services\\excell_on_services\\wwwroot\\web\\css\\bootstrap.min.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{1D196352-E3A2-4EA8-A06B-E7D8C559B81D}|Excell_On_Services\\Excell_On_Services.csproj|solutionrelative:excell_on_services\\wwwroot\\web\\css\\bootstrap.min.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D196352-E3A2-4EA8-A06B-E7D8C559B81D}|Excell_On_Services\\Excell_On_Services.csproj|d:\\rahim\\excell_on_services\\excell_on_services\\models\\sd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D196352-E3A2-4EA8-A06B-E7D8C559B81D}|Excell_On_Services\\Excell_On_Services.csproj|solutionrelative:excell_on_services\\models\\sd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D196352-E3A2-4EA8-A06B-E7D8C559B81D}|Excell_On_Services\\Excell_On_Services.csproj|d:\\rahim\\excell_on_services\\excell_on_services\\models\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D196352-E3A2-4EA8-A06B-E7D8C559B81D}|Excell_On_Services\\Excell_On_Services.csproj|solutionrelative:excell_on_services\\models\\appuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D196352-E3A2-4EA8-A06B-E7D8C559B81D}|Excell_On_Services\\Excell_On_Services.csproj|d:\\rahim\\excell_on_services\\excell_on_services\\views\\dashboard\\message.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1D196352-E3A2-4EA8-A06B-E7D8C559B81D}|Excell_On_Services\\Excell_On_Services.csproj|solutionrelative:excell_on_services\\views\\dashboard\\message.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D196352-E3A2-4EA8-A06B-E7D8C559B81D}|Excell_On_Services\\Excell_On_Services.csproj|d:\\rahim\\excell_on_services\\excell_on_services\\views\\dashboard\\detailservice.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1D196352-E3A2-4EA8-A06B-E7D8C559B81D}|Excell_On_Services\\Excell_On_Services.csproj|solutionrelative:excell_on_services\\views\\dashboard\\detailservice.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D196352-E3A2-4EA8-A06B-E7D8C559B81D}|Excell_On_Services\\Excell_On_Services.csproj|d:\\rahim\\excell_on_services\\excell_on_services\\models\\stripesetting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D196352-E3A2-4EA8-A06B-E7D8C559B81D}|Excell_On_Services\\Excell_On_Services.csproj|solutionrelative:excell_on_services\\models\\stripesetting.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D196352-E3A2-4EA8-A06B-E7D8C559B81D}|Excell_On_Services\\Excell_On_Services.csproj|d:\\rahim\\excell_on_services\\excell_on_services\\models\\services.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D196352-E3A2-4EA8-A06B-E7D8C559B81D}|Excell_On_Services\\Excell_On_Services.csproj|solutionrelative:excell_on_services\\models\\services.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D196352-E3A2-4EA8-A06B-E7D8C559B81D}|Excell_On_Services\\Excell_On_Services.csproj|d:\\rahim\\excell_on_services\\excell_on_services\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D196352-E3A2-4EA8-A06B-E7D8C559B81D}|Excell_On_Services\\Excell_On_Services.csproj|solutionrelative:excell_on_services\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D196352-E3A2-4EA8-A06B-E7D8C559B81D}|Excell_On_Services\\Excell_On_Services.csproj|d:\\rahim\\excell_on_services\\excell_on_services\\areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1D196352-E3A2-4EA8-A06B-E7D8C559B81D}|Excell_On_Services\\Excell_On_Services.csproj|solutionrelative:excell_on_services\\areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D196352-E3A2-4EA8-A06B-E7D8C559B81D}|Excell_On_Services\\Excell_On_Services.csproj|d:\\rahim\\excell_on_services\\excell_on_services\\areas\\identity\\pages\\account\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D196352-E3A2-4EA8-A06B-E7D8C559B81D}|Excell_On_Services\\Excell_On_Services.csproj|solutionrelative:excell_on_services\\areas\\identity\\pages\\account\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D196352-E3A2-4EA8-A06B-E7D8C559B81D}|Excell_On_Services\\Excell_On_Services.csproj|d:\\rahim\\excell_on_services\\excell_on_services\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1D196352-E3A2-4EA8-A06B-E7D8C559B81D}|Excell_On_Services\\Excell_On_Services.csproj|solutionrelative:excell_on_services\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D196352-E3A2-4EA8-A06B-E7D8C559B81D}|Excell_On_Services\\Excell_On_Services.csproj|d:\\rahim\\excell_on_services\\excell_on_services\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D196352-E3A2-4EA8-A06B-E7D8C559B81D}|Excell_On_Services\\Excell_On_Services.csproj|solutionrelative:excell_on_services\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D196352-E3A2-4EA8-A06B-E7D8C559B81D}|Excell_On_Services\\Excell_On_Services.csproj|d:\\rahim\\excell_on_services\\excell_on_services\\views\\dashboard\\editservice.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1D196352-E3A2-4EA8-A06B-E7D8C559B81D}|Excell_On_Services\\Excell_On_Services.csproj|solutionrelative:excell_on_services\\views\\dashboard\\editservice.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D196352-E3A2-4EA8-A06B-E7D8C559B81D}|Excell_On_Services\\Excell_On_Services.csproj|d:\\rahim\\excell_on_services\\excell_on_services\\views\\website\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1D196352-E3A2-4EA8-A06B-E7D8C559B81D}|Excell_On_Services\\Excell_On_Services.csproj|solutionrelative:excell_on_services\\views\\website\\about.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D196352-E3A2-4EA8-A06B-E7D8C559B81D}|Excell_On_Services\\Excell_On_Services.csproj|d:\\rahim\\excell_on_services\\excell_on_services\\views\\dashboard\\deleteservice.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1D196352-E3A2-4EA8-A06B-E7D8C559B81D}|Excell_On_Services\\Excell_On_Services.csproj|solutionrelative:excell_on_services\\views\\dashboard\\deleteservice.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D196352-E3A2-4EA8-A06B-E7D8C559B81D}|Excell_On_Services\\Excell_On_Services.csproj|d:\\rahim\\excell_on_services\\excell_on_services\\areas\\identity\\pages\\account\\logout.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D196352-E3A2-4EA8-A06B-E7D8C559B81D}|Excell_On_Services\\Excell_On_Services.csproj|solutionrelative:excell_on_services\\areas\\identity\\pages\\account\\logout.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D196352-E3A2-4EA8-A06B-E7D8C559B81D}|Excell_On_Services\\Excell_On_Services.csproj|d:\\rahim\\excell_on_services\\excell_on_services\\views\\shared\\_dashboardlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1D196352-E3A2-4EA8-A06B-E7D8C559B81D}|Excell_On_Services\\Excell_On_Services.csproj|solutionrelative:excell_on_services\\views\\shared\\_dashboardlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D196352-E3A2-4EA8-A06B-E7D8C559B81D}|Excell_On_Services\\Excell_On_Services.csproj|d:\\rahim\\excell_on_services\\excell_on_services\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1D196352-E3A2-4EA8-A06B-E7D8C559B81D}|Excell_On_Services\\Excell_On_Services.csproj|solutionrelative:excell_on_services\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D196352-E3A2-4EA8-A06B-E7D8C559B81D}|Excell_On_Services\\Excell_On_Services.csproj|d:\\rahim\\excell_on_services\\excell_on_services\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D196352-E3A2-4EA8-A06B-E7D8C559B81D}|Excell_On_Services\\Excell_On_Services.csproj|solutionrelative:excell_on_services\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D196352-E3A2-4EA8-A06B-E7D8C559B81D}|Excell_On_Services\\Excell_On_Services.csproj|d:\\rahim\\excell_on_services\\excell_on_services\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1D196352-E3A2-4EA8-A06B-E7D8C559B81D}|Excell_On_Services\\Excell_On_Services.csproj|solutionrelative:excell_on_services\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D196352-E3A2-4EA8-A06B-E7D8C559B81D}|Excell_On_Services\\Excell_On_Services.csproj|d:\\rahim\\excell_on_services\\excell_on_services\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1D196352-E3A2-4EA8-A06B-E7D8C559B81D}|Excell_On_Services\\Excell_On_Services.csproj|solutionrelative:excell_on_services\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D196352-E3A2-4EA8-A06B-E7D8C559B81D}|Excell_On_Services\\Excell_On_Services.csproj|d:\\rahim\\excell_on_services\\excell_on_services\\models\\emailsender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D196352-E3A2-4EA8-A06B-E7D8C559B81D}|Excell_On_Services\\Excell_On_Services.csproj|solutionrelative:excell_on_services\\models\\emailsender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "20240727054155_initial.cs",
+              "DocumentMoniker": "D:\\Rahim\\Excell_On_Services\\Excell_On_Services\\Migrations\\20240727054155_initial.cs",
+              "RelativeDocumentMoniker": "Excell_On_Services\\Migrations\\20240727054155_initial.cs",
+              "ToolTip": "D:\\Rahim\\Excell_On_Services\\Excell_On_Services\\Migrations\\20240727054155_initial.cs",
+              "RelativeToolTip": "Excell_On_Services\\Migrations\\20240727054155_initial.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-27T05:41:55.926Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Summary.cshtml",
+              "DocumentMoniker": "D:\\Rahim\\Excell_On_Services\\Excell_On_Services\\Views\\Website\\Summary.cshtml",
+              "RelativeDocumentMoniker": "Excell_On_Services\\Views\\Website\\Summary.cshtml",
+              "ToolTip": "D:\\Rahim\\Excell_On_Services\\Excell_On_Services\\Views\\Website\\Summary.cshtml",
+              "RelativeToolTip": "Excell_On_Services\\Views\\Website\\Summary.cshtml",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAADQAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-18T20:56:44.695Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "AppUser.cs",
+              "DocumentMoniker": "D:\\Rahim\\Excell_On_Services\\Excell_On_Services\\Models\\AppUser.cs",
+              "RelativeDocumentMoniker": "Excell_On_Services\\Models\\AppUser.cs",
+              "ToolTip": "D:\\Rahim\\Excell_On_Services\\Excell_On_Services\\Models\\AppUser.cs",
+              "RelativeToolTip": "Excell_On_Services\\Models\\AppUser.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-20T05:17:35.691Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Rahim\\Excell_On_Services\\Excell_On_Services\\appsettings.json",
+              "RelativeDocumentMoniker": "Excell_On_Services\\appsettings.json",
+              "ToolTip": "D:\\Rahim\\Excell_On_Services\\Excell_On_Services\\appsettings.json",
+              "RelativeToolTip": "Excell_On_Services\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-07-14T06:03:47.281Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "Logout.cshtml.cs",
+              "DocumentMoniker": "D:\\Rahim\\Excell_On_Services\\Excell_On_Services\\Areas\\Identity\\Pages\\Account\\Logout.cshtml.cs",
+              "RelativeDocumentMoniker": "Excell_On_Services\\Areas\\Identity\\Pages\\Account\\Logout.cshtml.cs",
+              "ToolTip": "D:\\Rahim\\Excell_On_Services\\Excell_On_Services\\Areas\\Identity\\Pages\\Account\\Logout.cshtml.cs",
+              "RelativeToolTip": "Excell_On_Services\\Areas\\Identity\\Pages\\Account\\Logout.cshtml.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAIBJwB8AAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-18T06:45:30.361Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "WebsiteController.cs",
+              "DocumentMoniker": "D:\\Rahim\\Excell_On_Services\\Excell_On_Services\\Controllers\\WebsiteController.cs",
+              "RelativeDocumentMoniker": "Excell_On_Services\\Controllers\\WebsiteController.cs",
+              "ToolTip": "D:\\Rahim\\Excell_On_Services\\Excell_On_Services\\Controllers\\WebsiteController.cs",
+              "RelativeToolTip": "Excell_On_Services\\Controllers\\WebsiteController.cs",
+              "ViewState": "AQIAAGsAAAAAAAAAAAAAAHcAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-12T12:49:51.403Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "D:\\Rahim\\Excell_On_Services\\Excell_On_Services\\Models\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Excell_On_Services\\Models\\ApplicationDbContext.cs",
+              "ToolTip": "D:\\Rahim\\Excell_On_Services\\Excell_On_Services\\Models\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Excell_On_Services\\Models\\ApplicationDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-12T10:33:59.491Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "D:\\Rahim\\Excell_On_Services\\Excell_On_Services\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "Excell_On_Services\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "ToolTip": "D:\\Rahim\\Excell_On_Services\\Excell_On_Services\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "RelativeToolTip": "Excell_On_Services\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "ViewState": "AQIAACYAAAAAAAAAAAAiwDUAAABjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-13T07:09:18.367Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Message.cshtml",
+              "DocumentMoniker": "D:\\Rahim\\Excell_On_Services\\Excell_On_Services\\Views\\Dashboard\\Message.cshtml",
+              "RelativeDocumentMoniker": "Excell_On_Services\\Views\\Dashboard\\Message.cshtml",
+              "ToolTip": "D:\\Rahim\\Excell_On_Services\\Excell_On_Services\\Views\\Dashboard\\Message.cshtml",
+              "RelativeToolTip": "Excell_On_Services\\Views\\Dashboard\\Message.cshtml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-15T01:15:53.384Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Stripesetting.cs",
+              "DocumentMoniker": "D:\\Rahim\\Excell_On_Services\\Excell_On_Services\\Models\\Stripesetting.cs",
+              "RelativeDocumentMoniker": "Excell_On_Services\\Models\\Stripesetting.cs",
+              "ToolTip": "D:\\Rahim\\Excell_On_Services\\Excell_On_Services\\Models\\Stripesetting.cs",
+              "RelativeToolTip": "Excell_On_Services\\Models\\Stripesetting.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-18T19:43:16.475Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "bootstrap.min.css",
+              "DocumentMoniker": "D:\\Rahim\\Excell_On_Services\\Excell_On_Services\\wwwroot\\web\\css\\bootstrap.min.css",
+              "RelativeDocumentMoniker": "Excell_On_Services\\wwwroot\\web\\css\\bootstrap.min.css",
+              "ToolTip": "D:\\Rahim\\Excell_On_Services\\Excell_On_Services\\wwwroot\\web\\css\\bootstrap.min.css",
+              "RelativeToolTip": "Excell_On_Services\\wwwroot\\web\\css\\bootstrap.min.css",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABIAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-07-20T06:36:19.757Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ClientServices.cs",
+              "DocumentMoniker": "D:\\Rahim\\Excell_On_Services\\Excell_On_Services\\Models\\ClientServices.cs",
+              "RelativeDocumentMoniker": "Excell_On_Services\\Models\\ClientServices.cs",
+              "ToolTip": "D:\\Rahim\\Excell_On_Services\\Excell_On_Services\\Models\\ClientServices.cs",
+              "RelativeToolTip": "Excell_On_Services\\Models\\ClientServices.cs",
+              "ViewState": "AQIAABsAAAAAAAAAAAAmwA4AAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-13T08:00:39.588Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "DeleteService.cshtml",
+              "DocumentMoniker": "D:\\Rahim\\Excell_On_Services\\Excell_On_Services\\Views\\Dashboard\\DeleteService.cshtml",
+              "RelativeDocumentMoniker": "Excell_On_Services\\Views\\Dashboard\\DeleteService.cshtml",
+              "ToolTip": "D:\\Rahim\\Excell_On_Services\\Excell_On_Services\\Views\\Dashboard\\DeleteService.cshtml",
+              "RelativeToolTip": "Excell_On_Services\\Views\\Dashboard\\DeleteService.cshtml",
+              "ViewState": "AQIAABUAAAAAAAAAAIBJwC8AAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-17T06:40:36.861Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "DetailService.cshtml",
+              "DocumentMoniker": "D:\\Rahim\\Excell_On_Services\\Excell_On_Services\\Views\\Dashboard\\DetailService.cshtml",
+              "RelativeDocumentMoniker": "Excell_On_Services\\Views\\Dashboard\\DetailService.cshtml",
+              "ToolTip": "D:\\Rahim\\Excell_On_Services\\Excell_On_Services\\Views\\Dashboard\\DetailService.cshtml",
+              "RelativeToolTip": "Excell_On_Services\\Views\\Dashboard\\DetailService.cshtml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-15T00:17:23.626Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Service.cshtml",
+              "DocumentMoniker": "D:\\Rahim\\Excell_On_Services\\Excell_On_Services\\Views\\Website\\Service.cshtml",
+              "RelativeDocumentMoniker": "Excell_On_Services\\Views\\Website\\Service.cshtml",
+              "ToolTip": "D:\\Rahim\\Excell_On_Services\\Excell_On_Services\\Views\\Website\\Service.cshtml",
+              "RelativeToolTip": "Excell_On_Services\\Views\\Website\\Service.cshtml",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAAACkAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-15T00:02:53.875Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\Rahim\\Excell_On_Services\\Excell_On_Services\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Excell_On_Services\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\Rahim\\Excell_On_Services\\Excell_On_Services\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Excell_On_Services\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAACoAAAAAAAAAAIBJwDoAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-14T22:42:47.152Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "DashboardController.cs",
+              "DocumentMoniker": "D:\\Rahim\\Excell_On_Services\\Excell_On_Services\\Controllers\\DashboardController.cs",
+              "RelativeDocumentMoniker": "Excell_On_Services\\Controllers\\DashboardController.cs",
+              "ToolTip": "D:\\Rahim\\Excell_On_Services\\Excell_On_Services\\Controllers\\DashboardController.cs",
+              "RelativeToolTip": "Excell_On_Services\\Controllers\\DashboardController.cs",
+              "ViewState": "AQIAAE0AAAAAAAAAAAAAwA0AAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-14T20:52:41.418Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Contact.cs",
+              "DocumentMoniker": "D:\\Rahim\\Excell_On_Services\\Excell_On_Services\\Models\\Contact.cs",
+              "RelativeDocumentMoniker": "Excell_On_Services\\Models\\Contact.cs",
+              "ToolTip": "D:\\Rahim\\Excell_On_Services\\Excell_On_Services\\Models\\Contact.cs",
+              "RelativeToolTip": "Excell_On_Services\\Models\\Contact.cs",
+              "ViewState": "AQIAABQAAAAAAAAAAAAwwB8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-14T20:23:41.55Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Contact.cshtml",
+              "DocumentMoniker": "D:\\Rahim\\Excell_On_Services\\Excell_On_Services\\Views\\Website\\Contact.cshtml",
+              "RelativeDocumentMoniker": "Excell_On_Services\\Views\\Website\\Contact.cshtml",
+              "ToolTip": "D:\\Rahim\\Excell_On_Services\\Excell_On_Services\\Views\\Website\\Contact.cshtml",
+              "RelativeToolTip": "Excell_On_Services\\Views\\Website\\Contact.cshtml",
+              "ViewState": "AQIAACoAAAAAAAAAAAAAADAAAABNAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-14T18:54:44.035Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "AddService.cshtml",
+              "DocumentMoniker": "D:\\Rahim\\Excell_On_Services\\Excell_On_Services\\Views\\Dashboard\\AddService.cshtml",
+              "RelativeDocumentMoniker": "Excell_On_Services\\Views\\Dashboard\\AddService.cshtml",
+              "ToolTip": "D:\\Rahim\\Excell_On_Services\\Excell_On_Services\\Views\\Dashboard\\AddService.cshtml",
+              "RelativeToolTip": "Excell_On_Services\\Views\\Dashboard\\AddService.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-13T08:38:32.904Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "About.cshtml",
+              "DocumentMoniker": "D:\\Rahim\\Excell_On_Services\\Excell_On_Services\\Views\\Website\\About.cshtml",
+              "RelativeDocumentMoniker": "Excell_On_Services\\Views\\Website\\About.cshtml",
+              "ToolTip": "D:\\Rahim\\Excell_On_Services\\Excell_On_Services\\Views\\Website\\About.cshtml",
+              "RelativeToolTip": "Excell_On_Services\\Views\\Website\\About.cshtml",
+              "ViewState": "AQIAABgAAAAAAAAAAIBJwCoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-14T18:41:59.654Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "_DashboardLayout.cshtml",
+              "DocumentMoniker": "D:\\Rahim\\Excell_On_Services\\Excell_On_Services\\Views\\Shared\\_DashboardLayout.cshtml",
+              "RelativeDocumentMoniker": "Excell_On_Services\\Views\\Shared\\_DashboardLayout.cshtml",
+              "ToolTip": "D:\\Rahim\\Excell_On_Services\\Excell_On_Services\\Views\\Shared\\_DashboardLayout.cshtml",
+              "RelativeToolTip": "Excell_On_Services\\Views\\Shared\\_DashboardLayout.cshtml",
+              "ViewState": "AQIAACEAAAAAAAAAAIBJwDAAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-14T06:52:52.796Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Services.cs",
+              "DocumentMoniker": "D:\\Rahim\\Excell_On_Services\\Excell_On_Services\\Models\\Services.cs",
+              "RelativeDocumentMoniker": "Excell_On_Services\\Models\\Services.cs",
+              "ToolTip": "D:\\Rahim\\Excell_On_Services\\Excell_On_Services\\Models\\Services.cs",
+              "RelativeToolTip": "Excell_On_Services\\Models\\Services.cs",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-13T07:47:18.871Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "D:\\Rahim\\Excell_On_Services\\Excell_On_Services\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "Excell_On_Services\\Views\\_ViewStart.cshtml",
+              "ToolTip": "D:\\Rahim\\Excell_On_Services\\Excell_On_Services\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "Excell_On_Services\\Views\\_ViewStart.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-13T06:49:34.703Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "D:\\Rahim\\Excell_On_Services\\Excell_On_Services\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "Excell_On_Services\\Views\\_ViewImports.cshtml",
+              "ToolTip": "D:\\Rahim\\Excell_On_Services\\Excell_On_Services\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "Excell_On_Services\\Views\\_ViewImports.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-13T06:49:33.02Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Rahim\\Excell_On_Services\\Excell_On_Services\\Views\\Dashboard\\Index.cshtml",
+              "RelativeDocumentMoniker": "Excell_On_Services\\Views\\Dashboard\\Index.cshtml",
+              "ToolTip": "D:\\Rahim\\Excell_On_Services\\Excell_On_Services\\Views\\Dashboard\\Index.cshtml",
+              "RelativeToolTip": "Excell_On_Services\\Views\\Dashboard\\Index.cshtml",
+              "ViewState": "AQIAACoAAAAAAAAAAAAAADEAAAAiAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-13T05:34:43.817Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ServiceIndex.cshtml",
+              "DocumentMoniker": "D:\\Rahim\\Excell_On_Services\\Excell_On_Services\\Views\\Dashboard\\ServiceIndex.cshtml",
+              "RelativeDocumentMoniker": "Excell_On_Services\\Views\\Dashboard\\ServiceIndex.cshtml",
+              "ToolTip": "D:\\Rahim\\Excell_On_Services\\Excell_On_Services\\Views\\Dashboard\\ServiceIndex.cshtml",
+              "RelativeToolTip": "Excell_On_Services\\Views\\Dashboard\\ServiceIndex.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-13T10:01:31.799Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "EditService.cshtml",
+              "DocumentMoniker": "D:\\Rahim\\Excell_On_Services\\Excell_On_Services\\Views\\Dashboard\\EditService.cshtml",
+              "RelativeDocumentMoniker": "Excell_On_Services\\Views\\Dashboard\\EditService.cshtml",
+              "ToolTip": "D:\\Rahim\\Excell_On_Services\\Excell_On_Services\\Views\\Dashboard\\EditService.cshtml",
+              "RelativeToolTip": "Excell_On_Services\\Views\\Dashboard\\EditService.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAIBJwAwAAABHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-13T09:17:21.859Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "D:\\Rahim\\Excell_On_Services\\Excell_On_Services\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "Excell_On_Services\\Controllers\\AccountController.cs",
+              "ToolTip": "D:\\Rahim\\Excell_On_Services\\Excell_On_Services\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "Excell_On_Services\\Controllers\\AccountController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-13T04:57:31.568Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Login.cshtml.cs",
+              "DocumentMoniker": "D:\\Rahim\\Excell_On_Services\\Excell_On_Services\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "RelativeDocumentMoniker": "Excell_On_Services\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "ToolTip": "D:\\Rahim\\Excell_On_Services\\Excell_On_Services\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "RelativeToolTip": "Excell_On_Services\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAxwF0AAAA+AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-13T04:48:51.817Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "D:\\Rahim\\Excell_On_Services\\Excell_On_Services\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "Excell_On_Services\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "ToolTip": "D:\\Rahim\\Excell_On_Services\\Excell_On_Services\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "RelativeToolTip": "Excell_On_Services\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "ViewState": "AQIAABgAAAAAAAAAAIBJwBUAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-13T04:48:50.691Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "SD.cs",
+              "DocumentMoniker": "D:\\Rahim\\Excell_On_Services\\Excell_On_Services\\Models\\SD.cs",
+              "RelativeDocumentMoniker": "Excell_On_Services\\Models\\SD.cs",
+              "ToolTip": "D:\\Rahim\\Excell_On_Services\\Excell_On_Services\\Models\\SD.cs",
+              "RelativeToolTip": "Excell_On_Services\\Models\\SD.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-13T04:34:55.408Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Logout.cshtml",
+              "DocumentMoniker": "D:\\Rahim\\Excell_On_Services\\Excell_On_Services\\Areas\\Identity\\Pages\\Account\\Logout.cshtml",
+              "RelativeDocumentMoniker": "Excell_On_Services\\Areas\\Identity\\Pages\\Account\\Logout.cshtml",
+              "ToolTip": "D:\\Rahim\\Excell_On_Services\\Excell_On_Services\\Areas\\Identity\\Pages\\Account\\Logout.cshtml",
+              "RelativeToolTip": "Excell_On_Services\\Areas\\Identity\\Pages\\Account\\Logout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-12T11:41:08.773Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\Rahim\\Excell_On_Services\\Excell_On_Services\\Program.cs",
+              "RelativeDocumentMoniker": "Excell_On_Services\\Program.cs",
+              "ToolTip": "D:\\Rahim\\Excell_On_Services\\Excell_On_Services\\Program.cs",
+              "RelativeToolTip": "Excell_On_Services\\Program.cs",
+              "ViewState": "AQIAACgAAAAAAAAAAAAAADsAAABgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-12T10:55:35.067Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "_LoginPartial.cshtml",
+              "DocumentMoniker": "D:\\Rahim\\Excell_On_Services\\Excell_On_Services\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeDocumentMoniker": "Excell_On_Services\\Views\\Shared\\_LoginPartial.cshtml",
+              "ToolTip": "D:\\Rahim\\Excell_On_Services\\Excell_On_Services\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeToolTip": "Excell_On_Services\\Views\\Shared\\_LoginPartial.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-12T11:45:00.937Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Register.cshtml.cs",
+              "DocumentMoniker": "D:\\Rahim\\Excell_On_Services\\Excell_On_Services\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "RelativeDocumentMoniker": "Excell_On_Services\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "ToolTip": "D:\\Rahim\\Excell_On_Services\\Excell_On_Services\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "RelativeToolTip": "Excell_On_Services\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "ViewState": "AQIAALwAAAAAAAAAAAAqwMMAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-12T11:49:22.667Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Rahim\\Excell_On_Services\\Excell_On_Services\\Views\\Website\\Index.cshtml",
+              "RelativeDocumentMoniker": "Excell_On_Services\\Views\\Website\\Index.cshtml",
+              "ToolTip": "D:\\Rahim\\Excell_On_Services\\Excell_On_Services\\Views\\Website\\Index.cshtml",
+              "RelativeToolTip": "Excell_On_Services\\Views\\Website\\Index.cshtml",
+              "ViewState": "AQIAADMAAAAAAAAAAAAmwEQAAABBAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-07-13T06:49:00.135Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "Emailsender.cs",
+              "DocumentMoniker": "D:\\Rahim\\Excell_On_Services\\Excell_On_Services\\Models\\Emailsender.cs",
+              "RelativeDocumentMoniker": "Excell_On_Services\\Models\\Emailsender.cs",
+              "ToolTip": "D:\\Rahim\\Excell_On_Services\\Excell_On_Services\\Models\\Emailsender.cs",
+              "RelativeToolTip": "Excell_On_Services\\Models\\Emailsender.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-12T11:53:11.04Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Excell_On_Services.props" />
+</Project>

@@ -1,9 +1,9 @@
  ## Import the Database ##
 
- Download the `.bak` file from the GitHub repository.
+ Download the `ECS.bak` file from the GitHub repository.
  Open SQL Server Management Studio (SSMS).
  Right-click on the **Databases** and select **Restore Database**.
- Select **Device** and browse to the `.bak` file you downloaded.
+ Select **Device** and browse to the `ECS.bak` file you downloaded.
  Click **OK** to restore the database.
 
 
